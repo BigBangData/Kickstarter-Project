@@ -282,7 +282,7 @@ Tprobs92 <- Tprobs92[-c(1:99)]
 We focus on Film and Video versus Technology categories, since the Technology coefficient was the furthest from the base case (Film and Video). This helps the visualization considering we have four duration probability lines plotted per category. 
 
 ``` {r eval=TRUE, echo=FALSE, out.width='90%'}
-## Visualization - Film & Video vs. Technology 
+# Visualization - Film & Video vs. Technology 
 
 # install-load required packages  
 if("ggplot2" %in% rownames(installed.packages()) == FALSE) {
