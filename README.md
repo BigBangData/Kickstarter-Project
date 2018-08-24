@@ -1,9 +1,8 @@
 ## Repository Contents:
 
 1. REAMDE file 
-2. Raw Data Descriptions
-3. Rmd File (R Markdown)
-4. PDF File (.Rmd output)
+2. Rmd File (R Markdown)
+3. PDF File (.Rmd output)
 
 ===============================================================================
 	
@@ -17,12 +16,7 @@ This repository started as partial credit for the University of Colorado Boulder
 
 Generate simple predictions based on logistic regression models for project success probabilities using project duration and goal amount, grouped according to main project categories.
 
-
-===============================================================================
-
-# 2 - RAW DATA DESCRIPTION
-
-## Kaggle Dataset 
+## Kaggle Dataset Description
 
 The dataset is just over the GitHub recommended 50 MB limit and can be downloaded from Kaggle [here](https://www.kaggle.com/kemical/kickstarter-projects). Since the 2016 dataset exhibits some unexplainable data incongruencies, the 2018 dataset is used.
 
@@ -48,14 +42,14 @@ Variables in the 2018 dataset are:
 
 ===============================================================================
 
-# 3 - RMD FILE 
+# 2 - RMD FILE 
 
 The R Markdown file (.Rmd) was written in Notepad++ and loaded into RStudio. The file can be found in this repository. The .Rmd file is used to generate the PDF output in RStudio using MikTeX and the knitr package.
 
  
 ===============================================================================
 
-# 4 - PDF Output
+# 3 - PDF Output
 
 The resulting outputof the .Rmd file, a PDF of the project, is found in this repository. It describes the data cleanup process and analysis unencumbered by R code, which can be found in the appendix. Enjoy!
 
